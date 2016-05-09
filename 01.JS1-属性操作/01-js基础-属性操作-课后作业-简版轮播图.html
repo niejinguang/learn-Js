@@ -94,9 +94,17 @@
 			// oSp2.innerHTML = arrSp2[num];
 		};
 		
-		
+//怎么让它像网站上的一样自动切换呢？？		
+		setInterval(function(){
+			num++;
+			
+			if(num == arrImgs.length){
+				num=0;
+			};
+			tab()
 
-//怎么让它像网站上的一样自动切换呢？？
+		},2000)
+
 //下面的那一排小圆圈怎么设置？？
 
 		
